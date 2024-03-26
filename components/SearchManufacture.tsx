@@ -26,7 +26,7 @@ const SearchManufacture = ({
       <Combobox value={manufacture} onChange={setManufacture}>
         <div className="relative w-full">
           {/* Button for the combobox. Click on the icon to see the complete dropdown */}
-          <Combobox.Button className="absolute top-[14px] bg-red-300">
+          <Combobox.Button className="absolute top-[14px]">
             <Image
               src="/car-logo.svg"
               width={20}
